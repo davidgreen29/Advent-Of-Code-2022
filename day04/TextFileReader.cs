@@ -11,7 +11,7 @@ namespace day04
 
         public List<string[]>? rangeResults;
         public char[] charSeperators = new char[] {',','-' };
-
+        
         public List<string[]> ReadRanges(string fileName)
         {
             var input = File.ReadAllText(fileName);
