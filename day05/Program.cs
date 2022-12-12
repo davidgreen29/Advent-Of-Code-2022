@@ -16,11 +16,5 @@ public class Program
         var newCrateStrucP2 = new CratesOnTopSolutionP2();
         string solutionP2 = newCrateStrucP2.CratesOntopP2(path);
         Console.WriteLine(solutionP2);
-
-
-
-
-
-
     }
 }

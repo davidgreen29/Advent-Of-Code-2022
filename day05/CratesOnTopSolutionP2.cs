@@ -29,7 +29,7 @@ namespace day05
 
                 Dictionary<int, Stack<string>> dictionary = new Dictionary<int, Stack<string>>();
 
-                dictionary.Add(1, stack1);
+                    dictionary.Add(1, stack1);
                     dictionary.Add(2, stack2);
                     dictionary.Add(3, stack3);
                     dictionary.Add(4, stack4);
