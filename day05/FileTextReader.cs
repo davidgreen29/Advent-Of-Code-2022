@@ -9,9 +9,9 @@ namespace day05
 {
     public class FileTextReader
     {
-       public  List<string[]>? procdureResults;
+        public  List<string[]>? procdureResults;
         public string regex = @"move (\d+) from (\d+) to (\d+)";
-        public char[] charSeperators = new char[] {' '};
+        
         public List<string[]> ReadProcedures(string fileName) 
         { 
             var input = File.ReadAllText(fileName);
